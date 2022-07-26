@@ -9,7 +9,7 @@
   </head>
   <body>
     <!--Navbar Section Start -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg navbar fixed-top bg-light">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,9 +18,9 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Shoes</a>
-              <a class="nav-link" href="#">Backpac</a>
-              <a class="nav-link" href="#">Subscribe</a>
+              <a class="nav-link" href="#shoes">Shoes</a>
+              <a class="nav-link" href="#backpac">Backpac</a>
+              <a class="nav-link" href="#subscribe">Subscribe</a>
             </div>
           </div>
         </div>
@@ -32,7 +32,7 @@
     <section class="ms-5 me-5">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active bg-info border rounded  p-5" >
+              <div class="carousel-item active  panda-bg-info border rounded  p-5" >
                 <div class="row">
                     <div class="col-lg-7 d-flex align-items-center ps-5">
                         <div>
@@ -41,7 +41,7 @@
                             <p>This is the best headphone in the world for people who just want to waste time in front of funky world.
                             </p>
                             <h2>420$</h2>
-                            <div class="btn btn bg-danger">Buy Now</div>
+                            <button class="btn btn-warning">Buy Now >></button>
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -49,16 +49,16 @@
                     </div>
                 </div>
               </div>
-              <div class="carousel-item active bg-info border rounded  p-5">
+              <div class="carousel-item active panda-bg-info border rounded  p-5">
                 <div class="row">
                     <div class="col-lg-7 d-flex align-items-center ps-5">
                         <div>
-                            <h1>Cool Dude Headphone
+                            <h1>Mega LCD TV For Sports
                             </h1>
                             <p>This is the best headphone in the world for people who just want to waste time in front of funky world.
                             </p>
                             <h2>420$</h2>
-                            <div class="btn btn bg-danger">Buy Now</div>
+                            <button class="btn btn-warning">Buy Now >></button>
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -66,16 +66,16 @@
                     </div>
                 </div>
               </div>
-              <div class="carousel-item active bg-info border rounded  p-5">
+              <div class="carousel-item active panda-bg-info border rounded  p-5">
                 <div class="row">
                     <div class="col-lg-7 d-flex align-items-center ps-5">
                         <div>
-                            <h1>Cool Dude Headphone
+                            <h1>X-Box for your living room
                             </h1>
                             <p>This is the best headphone in the world for people who just want to waste time in front of funky world.
                             </p>
                             <h2>420$</h2>
-                            <div class="btn btn bg-danger">Buy Now</div>
+                            <button class="btn btn-warning">Buy Now >></button>
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -127,7 +127,7 @@
     <!-- Backpack & Shoes Start -->
     
     <!-- Shoes section start -->
-      <section class="container my-5">
+      <section class="container my-5" id="shoes">
         <h2>shoes</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -173,7 +173,7 @@
       </section>
       <!-- Shoes section End -->
       <!-- Backpack section start -->
-      <section class="ms-5 me-5">
+      <section class="ms-5 me-5" id="backpac">
         <h2>Backpack</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -220,7 +220,24 @@
       <!-- Bagpack section end -->
     <!-- Backpack & Shoes End -->
 
+    <!-- Subscribe start -->
+    <section class="container mt-5 bg-info p-5 rounded-3 d-flex align-items-center justify-content-center" id="subscribe">
+      <div>
+        <h2>LETS STAY IN TOUCH</h2>
+      <p>Get updates on sales, specials and more</p>
+      <form>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <button class="btn btn-warning mt-1">Submit</button>
+      </form>
+      </div>
+    </section>
+    <!-- Subscribe End -->
+
     </main>
+    <footer>
+      <p class="mt-5 text-center">©2023. Panda Commerce. Design by Masum Billah</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
